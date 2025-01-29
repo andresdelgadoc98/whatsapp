@@ -1,0 +1,37 @@
+# Archivos de Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de entorno virtual
+venv/
+.env/
+.venv/
+
+# Archivos de configuración de IDEs (por ejemplo, VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Archivos temporales del sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+
+*.log
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+.coverage
+nosetests.xml
+test-reports/
+
+*.sqlite3
+*.db
+*.bak
+*.swp
+
+.env
