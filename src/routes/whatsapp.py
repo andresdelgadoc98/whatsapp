@@ -3,7 +3,7 @@ from flask import request, Blueprint,jsonify
 main = Blueprint('whatsapp', __name__)
 
 @main.route('/', methods=['POST'])
-def reply():
+def whatsapp():
     message = request.form.get('Body').lower()
     print(message)
     if message:
